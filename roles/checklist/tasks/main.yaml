@@ -1,8 +1,12 @@
 ---
 - name: Instalando pacotes essenciais
   apt:
-   name:
-    - vim  
-    - net-tools
-    - telnet
-    - nmap
+    name:
+      - vim  
+      - net-tools
+      - telnet
+      - nmap
+    state: present
+    
+  
+
